@@ -1,6 +1,8 @@
-FREEBIE_PRODUCT_ID = 31059890110524
-CART_TOTAL_FOR_DISCOUNT_APPLIED = Money.new(cents: 4000)
-DISCOUNT_MESSAGE = "Get a FREE gift for ordering $40 or more"
+# I used the SKU for "PRODUCT_ID" - not sure where to get this variant ID he talked about 
+
+FREEBIE_PRODUCT_ID = 16-8x10blk
+CART_TOTAL_FOR_DISCOUNT_APPLIED = Money.new(cents: 10000)
+DISCOUNT_MESSAGE = "Get a FREE gift with an order of $100 or more"
 
 freebie_in_cart = false
 cart_price_exceeds_discounted_freebie_amount = false
